@@ -173,6 +173,8 @@ h3{
 }
 .heroImageAbout{
     max-width:100%;
+    border-top: 2px dashed #3D4B4F;
+    padding-top:2rem;
 }
 .heroImageTextAbout{
     position:absolute;
@@ -300,4 +302,103 @@ h3{
 .teamContainer h4{
     font-size:1.5rem;
     text-align:center;
+}
+.teamContainer p{
+    padding:.25rem;
+}
+/*end of meet the team section styling*/
+/*end of about page styling*/
+
+/*styling @ 500px*/
+/*home page stying*/
+/*header & footer styling*/
+@media(max-width:500px){
+    .header{
+        font-size:1.5rem;
+    }
+    .footer{
+        font-size:1.5rem;
+    }
+}
+/*end of header and footer styling*/
+/*hero image styling*/
+@media(max-width:500px){
+.heroImage{
+    opacity:0.3;
+}
+.heroImageText h1{
+    font-size:4rem;
+    color: #3D4B4F;
+}
+.heroImageText h3{
+    font-size:2rem;
+    color:#3D4B4F;
+}
+.heroButton{
+    margin-top:1.5rem;
+}
+.heroImageText a{
+    font-size:2rem;
+    text-decoration:none;
+    color:#3D4B4F;
+    border:2px solid #3D4B4F;
+    padding:0 1rem 0 1rem;
+}
+.heroImageText a:hover{
+    text-decoration:underline;
+}
+}
+/*end of hero section styling*/
+/*main content section styling*/
+@media(max-width:500px){
+    .mainContent{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    width:90%;
+    flex-direction:column;
+    align-content:center;
+}
+}
+/*end of main section styling*/
+/*about page styling*/
+@media(max-width:500px){
+    .heroImageAbout{
+        opacity:0.4;
+    }
+    .heroAbout h1{
+        font-size:3.5rem;
+    }
+    .heroImageTextAbout{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        color:#3D4B4F;
+    }
+    .heroImageTextAbout h3{
+        font-style:italic;
+        padding-top:.25rem;
+        font-size:2.5rem;
+        margin-bottom:8rem;
+    }
+    .heroImageTextAbout a{
+        font-size:2rem;
+        text-decoration:none;
+        color:#3D4B4F;
+        border:2px solid #3D4B4F;
+        padding:0 1rem 0 1rem;
+    }
+}
+/*end of hero image styling*/
+/*meet the team styling*/
+@media (max-width:500px){
+    .teamContainer{
+    flex-direction:column;
+    max-width:90%;
+    }
+    .teamContainer div{
+        max-width:100%;
+        padding:1rem;
+    }
 }
