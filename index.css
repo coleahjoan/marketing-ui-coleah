@@ -1,0 +1,303 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/*border: 0;*/  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid gray; */
+}
+
+html{
+    font-size:62.5%;
+    max-width:1000px;
+    width:100%;
+    margin:0 auto;
+}
+body{
+    background-color:#e0f6f1;
+    font-family: 'Nunito Sans', sans-serif;
+    color:#3D4B4F;
+    margin:1rem;
+    border:2px solid gray;
+}
+img{
+    opacity:0.8;
+}
+
+/*end of general styling*/
+/*home styling*/
+
+/*header styling*/
+.header{
+    font-size:2rem;
+    display:flex;
+    justify-content:space-between;
+    padding:2rem;
+    margin:2rem;
+    font-family: 'Halant', serif;
+    background-color:#629083;
+}
+.header a{
+    text-decoration:none;
+    color:#3D4B4F;
+}
+a:hover{
+    text-decoration:underline;
+}
+/*end of header styling*/
+
+/*hero section styling*/
+.hero{
+    position: relative;
+    text-align: center;
+    margin:2rem;
+    border-bottom: 2px dashed #3D4B4F;
+    border-top: 2px dashed #3D4B4F;
+}
+.heroImage{
+    max-width:100%;
+    margin:2rem;
+}
+.heroImageText{
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#EFEDE0;
+}
+.heroImageText h1{
+    font-size:11rem;
+    font-style:bold;
+    font-family: 'Halant', serif;
+}
+.heroImageText h3{
+    font-style:italic;
+}
+.heroButton{
+    margin-top:3rem;
+}
+.heroImageText a{
+    font-size:2.5rem;
+    text-decoration:none;
+    color:#EFEDE0;
+    border:2px solid #EFEDE0;
+    padding:0 1rem 0 1rem;
+}
+.heroImageText a:hover{
+    text-decoration:underline;
+}
+/*end of hero section styling*/
+
+/*main content section styling*/
+.mainContent{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    max-width:45%;
+    flex-direction:row;
+}
+.mainContent div{
+    margin:2rem;
+    width:90%;
+    border: 2px dashed #3D4B4F;
+    background-color:rgb(248, 188, 173);
+    padding:1rem;
+}
+.mission img{
+    max-width:100%;
+}
+h3{
+    font-family: 'Halant', serif;
+    font-size:3rem;
+}
+.mainContent h3{
+    text-align:center;
+}
+.mainContent p{
+    font-size:1.5rem;
+}
+.mainContent a{
+    font-size:1.5rem;
+    text-decoration:none;
+    color:#3D4B4F;
+}
+.mainContent a:hover{
+    text-decoration:underline;
+}
+/*end of main content section styling*/
+/*footer styling*/
+.footer{
+    font-size:2rem;
+    display:flex;
+    justify-content:space-between;
+    padding:2rem;
+    font-family: 'Halant', serif;
+    background-color:#629083;
+}
+
+.footer a{
+    text-decoration:none;
+    color:#3D4B4F;
+}
+.footer a:hover{
+    text-decoration:underline;
+}
+/*end of footer styling*/
+
+/*about page styling*/
+/*hero image styling*/
+.heroAbout{
+    position: relative;
+    text-align: center;
+}
+.heroImageAbout{
+    max-width:100%;
+}
+.heroImageTextAbout{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#EFEDE0;
+}
+.heroImageTextAbout h1{
+    font-size:7rem;
+    font-style:bold;
+    font-family: 'Halant', serif;
+}
+.heroImageTextAbout h3{
+    font-style:italic;
+    padding-top:20rem;
+}
+.heroButtonAbout{
+    margin-top:3rem;
+}
+.heroImageTextAbout a{
+    font-size:2.5rem;
+    text-decoration:none;
+    color:#EFEDE0;
+    border:2px solid #EFEDE0;
+    padding:0 1rem 0 1rem;
+}
+.heroImageTextAbout a:hover{
+    text-decoration:underline;
+}
+/*end of hero image styling*/
+/*our story section styling*/
+.story h2{
+    margin-top:2rem;
+    font-size:3rem;
+    font-family: 'Halant', serif;
+    text-align:center;
+}
+.story p{
+    font-size:1.5rem;
+    padding:2rem;
+    border-bottom: 2px dashed #3D4B4F;
+}
+.story{
+    margin:2rem;
+    border-top: 2px dashed #3D4B4F;
+}
+/*end of story section styling*/
+/*principles section styling*/
+.principles{
+    margin-top:2rem;
+    border-bottom: 2px dashed #3D4B4F;
+}
+.principles h2{
+    font-size:3rem;
+    font-family: 'Halant', serif;
+    text-align:center;
+}
+.principles p{
+    font-size:1.5rem;
+    padding:2rem;
+    /* border-bottom: 2px dashed #3D4B4F; */
+}
+.principlesContainer{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    max-width:40%;
+    flex-direction:row;
+}
+.principlesContainer div{
+    margin:2rem;
+    width:90%;
+    border: 2px dashed #3D4B4F;
+    background-color:rgb(248, 188, 173);
+    padding:1rem;
+}
+.principlesContainer h3{
+    text-align:center;
+}
+/*end of principles section styling*/
+/*meet the team section styling*/
+.teamDescription h3{
+    text-align:center;
+}
+.teamContainer{
+    display:flex;
+    margin:2rem;
+}
+.coleah{
+    max-width:18%;
+    padding:1rem;
+    margin:1rem;
+    border:1px dashed #3D4B4F;
+    background-color:rgb(248, 188, 173);
+}
+.chris{
+    max-width:18%;
+    padding:1rem;
+    margin:1rem;
+    border:1px dashed #3D4B4F;
+    background-color:rgb(248, 188, 173);
+}
+.nathan{
+    max-width:18%;
+    padding:1rem;
+    margin:1rem;
+    border:1px dashed #3D4B4F;
+    background-color:rgb(248, 188, 173);
+}
+.royer{
+    max-width:18%;
+    padding:1rem;
+    margin:1rem;
+    border:1px dashed #3D4B4F;
+    background-color:rgb(248, 188, 173);
+}
+.jonathan{
+    max-width:18%;
+    padding:1rem;
+    margin:1rem;
+    border:1px dashed #3D4B4F;
+    background-color:rgb(248, 188, 173);
+}
+.teamContainer h4{
+    font-size:1.5rem;
+    text-align:center;
+}
