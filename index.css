@@ -114,18 +114,19 @@ a:hover{
     display:flex;
     justify-content:space-around;
     flex-wrap:wrap;
-    max-width:45%;
+    max-width:100%;
+    align-content:center;
     flex-direction:row;
 }
 .mainContent div{
     margin:2rem;
-    width:90%;
-    border: 2px dashed #3D4B4F;
+    width:95%;
+    /* border: 2px dashed #3D4B4F; */
     background-color:rgb(248, 188, 173);
     padding:1rem;
 }
-.mission img{
-    max-width:100%;
+.mainContent img{
+    width:100%;
 }
 h3{
     font-family: 'Halant', serif;
@@ -144,6 +145,34 @@ h3{
 }
 .mainContent a:hover{
     text-decoration:underline;
+}
+.mission{
+    max-width:45%;
+    border: 1px dashed #3D4B4F;
+}
+.missionImage img{
+    border: 1px dashed #3D4B4F;
+}
+.howItWorks{
+    max-width:45%;
+    border: 1px dashed #3D4B4F;
+}
+.howItWorks img{
+    border: 1px dashed #3D4B4F;
+}
+.getInvolved{
+    max-width:45%;
+    border: 1px dashed #3D4B4F;
+}
+.getInvolved img{
+    border: 1px dashed #3D4B4F;
+}
+.projects{
+    max-width:45%;
+    border: 1px dashed #3D4B4F;
+}
+.projects img{
+    border: 1px dashed #3D4B4F;
 }
 /*end of main content section styling*/
 /*footer styling*/
@@ -223,39 +252,7 @@ h3{
     border-top: 2px dashed #3D4B4F;
 }
 /*end of story section styling*/
-/*principles section styling*/
-.principles{
-    margin-top:2rem;
-    border-bottom: 2px dashed #3D4B4F;
-}
-.principles h2{
-    font-size:3rem;
-    font-family: 'Halant', serif;
-    text-align:center;
-}
-.principles p{
-    font-size:1.5rem;
-    padding:2rem;
-    /* border-bottom: 2px dashed #3D4B4F; */
-}
-.principlesContainer{
-    display:flex;
-    justify-content:space-around;
-    flex-wrap:wrap;
-    max-width:40%;
-    flex-direction:row;
-}
-.principlesContainer div{
-    margin:2rem;
-    width:90%;
-    border: 2px dashed #3D4B4F;
-    background-color:rgb(248, 188, 173);
-    padding:1rem;
-}
-.principlesContainer h3{
-    text-align:center;
-}
-/*end of principles section styling*/
+
 /*meet the team section styling*/
 .teamDescription h3{
     text-align:center;
@@ -263,6 +260,9 @@ h3{
 .teamContainer{
     display:flex;
     margin:2rem;
+}
+.teamContainer img{
+    border: 1px dashed #3D4B4F;
 }
 .coleah{
     max-width:18%;
@@ -357,7 +357,22 @@ h3{
     flex-wrap:wrap;
     width:90%;
     flex-direction:column;
-    align-content:center;
+    margin-left:2rem;
+}
+.mission{
+    max-width:90%;
+}
+.missionImage img{
+    max-height:90%;
+}
+.howItWorks{
+    max-width:90%;
+}
+.getInvolved{
+    max-width:90%;
+}
+.projects{
+    max-width:90%;
 }
 }
 /*end of main section styling*/
